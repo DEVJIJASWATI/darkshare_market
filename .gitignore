@@ -1,0 +1,8 @@
+/vendor/
+.env
+
+storage/*.key
+
+public/storage
+public/hot
+
