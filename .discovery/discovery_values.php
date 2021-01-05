@@ -11,9 +11,10 @@ return array (
     1 => 'BotMan\\Drivers\\Telegram\\TelegramAudioDriver',
     2 => 'BotMan\\Drivers\\Telegram\\TelegramFileDriver',
     3 => 'BotMan\\Drivers\\Telegram\\TelegramLocationDriver',
-    4 => 'BotMan\\Drivers\\Telegram\\TelegramPhotoDriver',
-    5 => 'BotMan\\Drivers\\Telegram\\TelegramVideoDriver',
-    6 => 'BotMan\\Drivers\\Web\\WebDriver',
+    4 => 'BotMan\\Drivers\\Telegram\\TelegramContactDriver',
+    5 => 'BotMan\\Drivers\\Telegram\\TelegramPhotoDriver',
+    6 => 'BotMan\\Drivers\\Telegram\\TelegramVideoDriver',
+    7 => 'BotMan\\Drivers\\Web\\WebDriver',
   ),
   'botman/commands' => 
   array (

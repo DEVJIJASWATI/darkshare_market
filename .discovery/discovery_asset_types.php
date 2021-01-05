@@ -7,7 +7,7 @@ return array (
       'value' => 'stubs/telegram.php',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
@@ -17,7 +17,7 @@ return array (
       'value' => 'stubs/web.php',
       'package' => 'botman/driver-web',
       'packageDir' => 'vendor/botman/driver-web/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
@@ -30,7 +30,7 @@ return array (
       'value' => 'BotMan\\Drivers\\Telegram\\TelegramDriver',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
@@ -40,7 +40,7 @@ return array (
       'value' => 'BotMan\\Drivers\\Telegram\\TelegramAudioDriver',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
@@ -50,7 +50,7 @@ return array (
       'value' => 'BotMan\\Drivers\\Telegram\\TelegramFileDriver',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
@@ -60,37 +60,47 @@ return array (
       'value' => 'BotMan\\Drivers\\Telegram\\TelegramLocationDriver',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
     ),
     4 => 
     array (
-      'value' => 'BotMan\\Drivers\\Telegram\\TelegramPhotoDriver',
+      'value' => 'BotMan\\Drivers\\Telegram\\TelegramContactDriver',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
     ),
     5 => 
     array (
-      'value' => 'BotMan\\Drivers\\Telegram\\TelegramVideoDriver',
+      'value' => 'BotMan\\Drivers\\Telegram\\TelegramPhotoDriver',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
     ),
     6 => 
     array (
+      'value' => 'BotMan\\Drivers\\Telegram\\TelegramVideoDriver',
+      'package' => 'botman/driver-telegram',
+      'packageDir' => 'vendor/botman/driver-telegram/',
+      'priority' => 0.0,
+      'metadata' => 
+      array (
+      ),
+    ),
+    7 => 
+    array (
       'value' => 'BotMan\\Drivers\\Web\\WebDriver',
       'package' => 'botman/driver-web',
       'packageDir' => 'vendor/botman/driver-web/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
@@ -103,7 +113,7 @@ return array (
       'value' => 'BotMan\\Drivers\\Telegram\\Console\\Commands\\TelegramRegisterCommand',
       'package' => 'botman/driver-telegram',
       'packageDir' => 'vendor/botman/driver-telegram/',
-      'priority' => 0,
+      'priority' => 0.0,
       'metadata' => 
       array (
       ),
