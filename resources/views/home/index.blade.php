@@ -47,7 +47,10 @@
 
       <div class="row justify-content-center">
         <div class="col-xl-11 d-flex align-items-center">
-            <a href="#intro" class="logo mr-auto"><img src="{{ $settings->site_address}}/cloud/app/images/{{$settings->logo}}" alt="{{$settings->site_name}}" title="" class="img-fluid" /></a>
+            <a href="#intro" class="logo mr-auto">
+              {{-- <img src="{{ $settings->site_address}}/cloud/app/images/{{$settings->logo}}" alt="{{$settings->site_name}}" title="" class="img-fluid" /> --}}
+              <img src="{{ asset('img/logo.svg') }}" alt="{{$settings->site_name}}" title="" class="img-fluid" />
+            </a>
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
@@ -107,7 +110,10 @@
         <div class="carousel-inner" role="listbox"  >
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('57VnOE','img_path')}}" alt=""></div>
+            <div class="carousel-background">
+              {{-- <img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('mEQfgp','img_path')}}" alt=""> --}}
+            <img src="{{ asset('img/trade_1.jpg') }}" alt="">
+            </div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>{{$content->getContent('toe3Ew','title')}}</h2>
@@ -118,7 +124,10 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('dC6ZaA','img_path')}}" alt=""></div>
+            <div class="carousel-background">
+              {{-- <img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('dC6ZaA','img_path')}}" alt=""> --}}
+              <img src="{{ asset('img/trade_2.jpg') }}" alt="">
+            </div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>{{$content->getContent('jJwh78','title')}}</h2>
@@ -129,7 +138,10 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('9kHash','img_path')}}" alt=""></div>
+            <div class="carousel-background">
+              {{-- <img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('9kHash','img_path')}}" alt=""> --}}
+              <img src="{{ asset('img/trade_3.jpg') }}" alt="">
+            </div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>{{$content->getContent('SLxaB2','title')}}</h2>
@@ -138,12 +150,12 @@
               </div>
             </div>
           </div>
-          @php
-              dd($settings->site_address);
-          @endphp
-
+          
           <div class="carousel-item">
-            <div class="carousel-background"><img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('CcW52g','img_path')}}" alt=""></div>
+            <div class="carousel-background">
+              {{-- <img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('CcW52g','img_path')}}" alt=""> --}}
+              <img src="{{ asset('img/trade_4.jpg') }}" alt="">
+            </div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>{{$content->getContent('BkP8pH','title')}}</h2>
@@ -154,7 +166,10 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('96i7xH','img_path')}}" alt=""></div>
+            <div class="carousel-background">
+              {{-- <img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('96i7xH','img_path')}}" alt=""> --}}
+              <img src="{{ asset('img/btc_trade.jpg') }}" alt="">
+            </div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>{{$content->getContent('W6gTBN','title')}}</h2>
@@ -330,7 +345,7 @@
     ============================-->
     <section id="pricing" class="wow fadeInUp section-bg">
 
-      <div class="container">
+      <div class="container-fluid">
 
         <header class="section-header">
           <h3>{{$content->getContent('vr6Xw0','title')}}</h3>
@@ -343,8 +358,9 @@
       
           @foreach ($plans as $plan)
               <!-- Basic Plan  -->
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-3 col-md-6">
                 <div class="pricing-box">
+                 
                     <h3>{{$plan->name}}</h3>
                     <div class="cur">
                       <span>{{$settings->currency}}</span>
@@ -361,6 +377,7 @@
                     </ul>
                   </div>
                   <div class="pricing-button">
+
                     <a href="" class="btn btn-primary">Buy Now</a>
                   </div>
                 </div>

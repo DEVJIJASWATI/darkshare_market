@@ -7,14 +7,19 @@
 /* All  variables colors */
 
  :root {
-    --color-primary: #2980b9;
-    --color-primary-blue: #04609e;
+    /* --color-primary: #2980b9; */
+    --color-primary: #0f0;
+    /* --color-primary-blue: #04609e; */
+    --color-primary-blue: #0f0;
     --color-dark-blue-1: rgba(11, 0, 36, 0.9);
     --color-dark-blue-2: rgb(8, 0, 19);
     --color-primary-light: rgba(178, 179, 243, 0.9);
     --color-white: #fff;
+    /* --color-white: rgb(3, 3, 3); */
     --color-white-1: #ddd;
+    /* --color-white-1: rgb(3, 3, 3);; */
     --color-white-2: #eee;
+    /* --color-white-2: rgb(3, 3, 3);; */
     --color-form-input: #dddde0;
     --color-black: #000;
     --color-grey: rgb(14, 13, 13);
@@ -194,7 +199,8 @@ h6 {
 }
 
 #header .logo img {
-    max-height: 50px;
+    /* max-height: 50px; */
+    max-height: 150px;
     margin-top: -20px;
 }
 
@@ -731,19 +737,21 @@ h6 {
   --------------------------------------------------------------*/
 
 #services {
-    background: var(--color-white);
+    background: rgb(3, 3, 3);;
     background-size: cover;
     padding: 60px 0 40px 0;
 }
 
 #services .box {
     margin: 30px 0px;
-    box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
+    /* box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15); */
+    box-shadow: 0px 0px 10px rgba(248, 248, 250, 0.15);
     padding: 40px 10px;
     -webkit-transition: -webkit-transform .3s;
     transition: -webkit-transform .3s;
     transition: transform .3s;
     transition: transform .3s, -webkit-transform .3s;
+    color: white !important;
 }
 
 
@@ -796,16 +804,22 @@ h6 {
 
 #pricing {
     padding: 80px 0;
+    background-color: rgb(3, 3, 3);
 }
 
 #pricing .pricing-box {
-    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 10px 30px 0 rgba(255, 250, 250, 0.2);
     padding: 35px 0px;
     border-radius: 8px;
     margin: 30px 10px;
     text-align: left;
-    background: var(--color-white);
+    /* background: var(--color-white); */
+    background: rgb(3, 3, 3);
+    color: white;
 }
+
+
 
 #pricing .pricing-box h3 {
     margin: -35px 0px -15px 0px;
@@ -820,6 +834,7 @@ h6 {
     display: inline-flex;
     margin-top: 30px;
     margin-bottom: 10px;
+    
 }
 
 #pricing .pricing-box .cur span {
@@ -830,6 +845,7 @@ h6 {
 #pricing .pricing-box .cur h2 {
     font-size: 34px;
     font-weight: 600;
+    
 }
 
 #pricing .pricing-box .cur h6 {
@@ -837,6 +853,7 @@ h6 {
     font-size: 15px;
     font-weight: 600;
     margin-left: 5px;
+   
 }
 
 #pricing .pricing-box .price-list {
@@ -847,7 +864,8 @@ h6 {
 #pricing .pricing-box .price-list .list-unstyled {
     padding: 5px 0;
     list-style: none;
-    color: var(--color-black);
+    /* color: var(--color-black); */
+    color: white;
     text-align: left;
     line-height: 20px;
 }
@@ -890,10 +908,12 @@ h6 {
 
 #testimonials {
     padding: 60px 0;
+    background-color: rgb(3, 3, 3);
 }
 
 #testimonials .section-header {
     margin-bottom: 40px;
+    color: white;
 }
 
 #testimonials .testimonial-item .testimonial-img {
@@ -907,13 +927,15 @@ h6 {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: var(--color-black);
+    /* color: var(--color-black); */
+    color: white !important;
     margin-left: 140px;
 }
 
 #testimonials .testimonial-item h4 {
     font-size: 17px;
-    color: var(--color-primary) !important;
+    /* color: var(--color-primary) !important; */
+    color: white !important;
     margin: 0 0 15px 0;
     margin-left: 140px;
 }
@@ -921,7 +943,8 @@ h6 {
 #testimonials .testimonial-item p {
     font-style: italic;
     margin: 0 0 15px 140px;
-    color: var(--color-grey-1);
+    /* color: var(--color-grey-1); */
+    color: white !important;
 }
 
 #testimonials .owl-nav,
