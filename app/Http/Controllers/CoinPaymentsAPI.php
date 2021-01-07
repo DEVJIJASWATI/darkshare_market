@@ -233,7 +233,7 @@ use AuthorizesRequests, DispatchesJobs, ValidatesRequests, BCPTrait;
 		'currency2' => $coin,
 		'buyer_email' => Auth::user()->email,
 		'buyer_name' => Auth::user()->name,
-		'address' => $address, // leave blank send to follow your settings on the Coin Settings page
+		// 'address' => $address, // leave blank send to follow your settings on the Coin Settings page
 		'item_name' => 'Account deposit',
 		'ipn_url' => "https://telebot.brynamics.xyz/dashboard/paywithcp/$amount/$coin/$up/$ui/done",
 	);

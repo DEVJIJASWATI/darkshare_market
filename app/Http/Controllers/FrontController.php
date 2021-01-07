@@ -10,7 +10,6 @@ use App\Http\Controllers\Controller;
 
 class FrontController extends Controller
 {
-    //
 
     public function getContent($ref_key, $prop){
         $content = Contents::where('ref_key', $ref_key)->first();

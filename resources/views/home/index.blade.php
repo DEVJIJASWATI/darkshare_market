@@ -138,6 +138,9 @@
               </div>
             </div>
           </div>
+          @php
+              dd($settings->site_address);
+          @endphp
 
           <div class="carousel-item">
             <div class="carousel-background"><img src="{{ $settings->site_address}}/cloud/app/images/{{$content->getImage('CcW52g','img_path')}}" alt=""></div>
