@@ -6,3 +6,4 @@ storage/*.key
 public/storage
 public/hot
 
+/storage/
