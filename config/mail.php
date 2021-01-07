@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@onlinetrade.com'),
-        'name' => env('MAIL_FROM_NAME', 'OnlineTrade'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@darkshare.com'),
+        'name' => env('MAIL_FROM_NAME', 'DarkShare'),
     ],
 
     /*
