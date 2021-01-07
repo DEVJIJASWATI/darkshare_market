@@ -81,7 +81,7 @@
                                     <input type="password" class="form-control" name="password_confirmation" value="{{ old('password_confirmation') }}" id="confirm-password" placeholder="Confirm Password">
                                 </div>
                             </div>
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label for="country" name="country">Country</label>
                                 <select class="form_control" name="country" id="country" required>
                                     <option selected disabled value="">Choose Country</option>
@@ -89,7 +89,7 @@
                                     <option value="{{$country}}">{{$country}}</option>
                                     @endforeach
                                 </select>
-                            </div>
+                            </div> --}}
     
                             <div class="form-group">
                                 <button class="btn btn-primary mt-4" type="submit">Register</button>
